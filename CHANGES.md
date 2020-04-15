@@ -33,6 +33,7 @@ Soon we'll deprecate the latter, so prepare now.
 - [show_send_button](https://conversejs.org/docs/html/configuration.html#show-send-button) now has a default value of `true`.
 - New configuration setting [muc_hats_from_vcard](https://conversejs.org/docs/html/configuration.html#muc-hats-from-vcard).
 - The [api.confirm](https://conversejs.org/docs/html/api/-_converse.api.html#.confirm) method now accepts a list of fields and returns the filled in list upon confirmation.
+- Add support for XEP-0050 Ad-Hoc commands
 
 ## 6.0.0 (2020-01-09)
 

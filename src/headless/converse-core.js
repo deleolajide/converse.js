@@ -97,6 +97,7 @@ const PROMISES = [
 // These are just the @converse/headless plugins, for the full converse,
 // the other plugins are whitelisted in src/converse.js
 const CORE_PLUGINS = [
+    'converse-adhoc',
     'converse-bookmarks',
     'converse-bosh',
     'converse-caps',
@@ -307,7 +308,7 @@ function initUserSettings () {
  * @namespace _converse.api
  * @memberOf _converse
  */
-const api = _converse.api = {
+export const api = _converse.api = {
     /**
      * This grouping collects API functions related to the XMPP connection.
      *
